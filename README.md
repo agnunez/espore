@@ -9,14 +9,15 @@
 ###Installation steps
 * Install log.php in your local server (apache or other php cgi enabled)
 * Create a MySQL database with:
-'''
+
+```
 CREATE TABLE `dust` (
   `id` int(11) NOT NULL,
   `sid` int(11) NOT NULL,
   `pm25` int(11) NOT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Dust sensor raw data';
-'''
+```
 
 * Edit ino file with your local wifi SSID and PASS key
 
